@@ -1,0 +1,5 @@
+Global Accuracy:  98.27766418457031
+Local Accuracy:  82.02054794520548
+DICE Overlap Index : 0.9089736094030362
+ret, binary = cv.threshold(dst,150,255,cv.THRESH_BINARY)
+dst = cv.GaussianBlur(gray,(3,3),cv.BORDER_ISOLATED)
